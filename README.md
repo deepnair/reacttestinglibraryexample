@@ -6,7 +6,7 @@ This is based on a tutorial by Laith Harb at [React Testing Library Crash Course
 
 1. First create the next app along with the necessary pre-installed react-testing library and jest with the following: 
     ```
-    npm i create-next-app reacttestinglibrary --example with-jest with-jest-app
+    npx create-next-app reacttestinglibrary --example with-jest with-jest-app
     ```
     This prebuilds the __tests__ folder in the root and the necessary jest.config.js and the jest.setup.js
 
