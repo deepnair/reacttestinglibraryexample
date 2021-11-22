@@ -20,6 +20,7 @@ This is based on a tutorial by Laith Harb at [React Testing Library Crash Course
     ```
     yarn add --dev typescript @types/react
     ```
+1. Run npm run dev so that the tsconfig.json and the next-env.d.ts are autopopulated.
 1. Change the index.js to index.tsx.
 1. Write comments of all the tests that need to be run. This could also serve as documentation and specifications.
 1. Create a beforeEach, which takes a function that sets getByTestId which is destructured from the component that is rendered with the {render} imported from @testing-library/react.
